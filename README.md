@@ -20,9 +20,9 @@
 * **Request Body:**
     ```json
     {
-      "username": "user",
-      "password": "password123",
-      "email": "user@gmail.com"
+     "username": "user_test",
+     "password": "password123",
+     "email": "test@gmail.com"
     }
     ```
 **`POST /api/auth/login`**
@@ -30,14 +30,15 @@
 * **Request Body:**
     ```json
     {
-      "username": "user",
-      "password": "password123"
+     "username": "user_test",
+     "password": "password123",
+     "email": "test@gmail.com"
     }
     ```
 * **Response (Success):**
     ```json
     {
-      "token": "eyJhbGciOiJIUzI1NiJ9..."
+      "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyX3Rlc3QiLCJpYXQiOjE3NjI2ODUwMjIsImV4cCI6MTc2Mjc3MTQyMn0.EG8MHsDPtJuFV44PvwzkSA_8_J4bjPOBA2WCvh7MLxY"
     }
     ```
 ### 2. Task Endpoints (Protected)
